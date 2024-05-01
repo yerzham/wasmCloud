@@ -1,4 +1,4 @@
-import {LatticeClient, LatticeClientProvider} from '@wasmcloud/lattice-client-react';
+import {LatticeClient, LatticeClientProvider} from '@wasmcloud/lattice-client-react/src';
 import * as React from 'react';
 
 const client = new LatticeClient({

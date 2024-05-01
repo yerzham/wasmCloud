@@ -1,4 +1,4 @@
-import {canConnect, useLatticeConfig} from '@wasmcloud/lattice-client-react';
+import {canConnect, useLatticeConfig} from '@wasmcloud/lattice-client-react/src';
 import {clsx} from 'clsx';
 import * as React from 'react';
 

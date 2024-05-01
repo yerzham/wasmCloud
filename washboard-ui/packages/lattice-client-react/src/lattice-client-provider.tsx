@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {LatticeClient} from '@wasmcloud/lattice-client-core';
+import {LatticeClient} from '@wasmcloud/lattice-client-core/src';
 
 export const LatticeClientContext = React.createContext<LatticeClient | undefined>(undefined);
 

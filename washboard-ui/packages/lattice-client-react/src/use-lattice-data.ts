@@ -1,4 +1,4 @@
-import {LatticeCache} from '@wasmcloud/lattice-client-core';
+import {LatticeCache} from '@wasmcloud/lattice-client-core/src';
 import {useDebugValue, useEffect, useState} from 'react';
 import {useLatticeClient} from './lattice-client-provider';
 

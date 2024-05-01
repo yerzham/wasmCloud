@@ -1,4 +1,4 @@
-import {useLatticeData} from '@wasmcloud/lattice-client-react';
+import {useLatticeData} from '@wasmcloud/lattice-client-react/src';
 import {ReactElement} from 'react';
 import {ComponentsTable} from '@/app/components/components-table';
 import {HostsSummary} from '@/app/components/hosts-summary';

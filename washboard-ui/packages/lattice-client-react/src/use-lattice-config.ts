@@ -1,4 +1,4 @@
-import {LatticeClientConfig} from '@wasmcloud/lattice-client-core';
+import {LatticeClientConfig} from '@wasmcloud/lattice-client-core/src';
 import * as React from 'react';
 import {useLatticeClient} from './lattice-client-provider';
 

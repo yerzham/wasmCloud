@@ -1,5 +1,5 @@
 import {zodResolver} from '@hookform/resolvers/zod';
-import {canConnect, useLatticeConfig} from '@wasmcloud/lattice-client-react';
+import {canConnect, useLatticeConfig} from '@wasmcloud/lattice-client-react/src';
 import {ReactElement, useEffect} from 'react';
 import {useForm} from 'react-hook-form';
 import * as z from 'zod';

@@ -25,6 +25,8 @@
         "default": "./build/index.cjs"
       }
     },
+    "./src": "./src/index.ts",
+    "./src/*": "./src/*",
     "./package.json": "./package.json"
   },
   "files": [
@@ -34,9 +36,7 @@
   "scripts": {
     "lint:eslint": "eslint --ext .ts,.tsx ./src",
     "lint:eslint:fix": "yarn lint:eslint --fix",
-    "test:types": "tsc",
-    "dev": "tsup --watch",
-    "build": "tsup"
+    "test:types": "tsc"
   },
   "devDependencies": {
     "@types/eslint": "~8.56.5",
@@ -45,8 +45,7 @@
     "@wasmcloud/tsconfig": "workspace:^"
   },
   "dependencies": {
-    "@wasmcloud/lattice-client-core": "workspace:^",
-    "tsup": "^8.0.2"
+    "@wasmcloud/lattice-client-core": "workspace:^"
   },
   "peerDependencies": {
     "react": "^18.0.0"

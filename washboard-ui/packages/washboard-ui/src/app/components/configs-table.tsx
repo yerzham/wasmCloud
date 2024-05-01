@@ -8,7 +8,7 @@ import {
   getSortedRowModel,
   useReactTable,
 } from '@tanstack/react-table';
-import {WadmConfig, useLatticeData} from '@wasmcloud/lattice-client-react';
+import {WadmConfig, useLatticeData} from '@wasmcloud/lattice-client-react/src';
 import {ChevronDown, ChevronRight} from 'lucide-react';
 import {Fragment, ReactElement, useState, useMemo} from 'react';
 import {Collapsible, CollapsibleContent, CollapsibleTrigger} from '@/components/collapsible';

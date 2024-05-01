@@ -1,11 +1,8 @@
 {
-  "packageManager": "yarn@4.0.2",
+  "packageManager": "pnpm@9.0.6",
   "name": "@wasmcloud/monorepo",
   "type": "commonjs",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
     "turbo:build": "turbo run build --cache-dir .turbo/cache",
     "turbo:dev": "turbo run dev",
